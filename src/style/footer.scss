@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.footer-full-width {
+    width: 100%;
+    background-color: #2075FE;
+    color: #fff;
+    padding: 64px 0px;
+    font-family: 'Poppins', sans-serif;
+
+    &__footer {
+        display: grid;
+        max-width: 1440px;
+        width: 90%;
+        margin: 0px auto;
+        gap: 40px;
+
+        @media (min-width: 320px) {
+            grid-template-columns: auto;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            grid-template-columns: auto;
+            text-align: center;
+        }
+
+        @media (min-width: 1024px) {
+            grid-template-columns: auto auto;
+            text-align: left;
+        }
+
+        &__logo {
+            border: solid white 1px;
+            max-width: 150px;
+
+            @media (min-width: 320px) {
+                margin: auto;
+            }
+
+            @media (min-width: 768px) {
+                margin: auto;
+            }
+
+            @media (min-width: 1024px) {
+                margin: 0px;
+            }
+        }
+
+        &__footer-link {
+            padding: 6px 0px;
+            font-size: 20px;
+
+            &:hover {
+                color: #FF214F;
+            }
+        }
+
+        &__social-link {
+            display: inline-block;
+            padding: 0px 8px;
+            font-size: 25px;
+            cursor: pointer;
+
+            &:hover {
+                color: #FF214F;
+            }
+        }
+
+        &__title {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        &__body {
+            color: #80B0FF;
+            width: 50%;
+            padding: 15px 0px;
+
+            @media (max-width: 1024px) {
+                width: 100%;
+                padding: 32px 0px;
+            }
+        }
+
+        &__icon-container {
+            background: #fff;
+            width: 40px;
+            height: 40px;
+            padding: 8px;
+            margin: 15px 5px;
+            color: #2075FE;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 23px;
+            display: inline-block;
+            border: solid #FFF 1px;
+            transition: .6s ease-in-out;
+
+            &:hover {
+                background: #2075FE;
+                color: #FFF;
+            }
+        }
+
+        &__subtitle {
+            font-size: 30px;
+        }
+
+        &__form-container {
+            padding: 20px 0px;
+
+            &__input-text {
+                margin: 12px 0px;
+                padding: 8px 8px;
+                width: 100%;
+                background: #2075FE;
+                border-bottom: solid #80B0FF 2px;
+                font-size: 20px;
+                outline: none;
+
+                &::-webkit-input-placeholder {
+                    color: #80B0FF;
+
+                    @media(max-width: 1024px) {
+                        text-align: center;
+                    }
+                }
+            }
+
+            &__alert {
+                padding: 20px 0px 40px 0px;
+            }
+        }
+    }
+}
+
+.bottom-line {
+    background-color: #000000;
+    width: 100%;
+    color: #fff;
+    padding: 10px 64px;
+    display: none;
+}
+
+.successMessage {
+    color: #00BFA5;
+    font-size: 25px;
+    display: flex;
+    justify-content: right;
+    padding: 6px 8px;
+    margin: 10px 0px;
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 1s;
+  
+    &__messageText {
+      background: #fff;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+    }
+  }
+
+.dnone {
+    opacity: 0;
+    transition: opacity 250ms ease-in-out 1s;
+}

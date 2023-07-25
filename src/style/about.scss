@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.about-section-1 {
+  margin: 152px 64px;
+  padding: 40px 0px;
+  font-family: "Poppins", sans-serif;
+
+  &__container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0px auto;
+
+    &__pretitle {
+      font-size: 16px;
+      color: #0061fe;
+    }
+
+    &__title {
+      font-size: 72px;
+      font-weight: bold;
+      color: #1e255d;
+
+      &--light {
+        color: #0061fe;
+      }
+    }
+
+    &__text {
+      width: 50%;
+      font-size: 26px;
+      padding: 40px 0px;
+      color: #1e255d;
+
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+
+    &__gif-truck-container {
+      display: flex;
+      justify-content: right;
+      position: relative;
+      align-items: center;
+
+      &__text-vertical {
+        position: absolute;
+        left: -140px;
+        font-size: 45px;
+        transform: rotate(-90deg);
+        color: #e5efff;
+
+        @media (max-width: 1150px) {
+          display: none;
+        }
+      }
+
+      &__relative {
+        position: relative;
+        background: url("../../public/assets/about/circles.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+        &__truck {
+          min-width: 700px;
+          z-index: 10 !important;
+        }
+
+        &__circles {
+          border: solid black 1px;
+          position: absolute;
+          bottom: 0px;
+        }
+      }
+    }
+
+    @media (max-width: 1024px) {
+      text-align: center;
+    }
+  }
+}
+
+.about-section-2 {
+  margin: 150px 64px;
+  padding: 40px 0px;
+  font-family: "Poppins", sans-serif;
+
+  &__container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+
+    &__logo {
+      max-width: 440px;
+      margin: 0px;
+
+      @media (max-width: 1024px) {
+        margin: 0px auto;
+        width: 80%;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      grid-template-columns: auto;
+      align-items: center;
+    }
+
+    &__info {
+      text-align: right;
+      font-size: 26px;
+
+      &__text {
+        padding: 40px 0px;
+        color: #1e255d;
+      }
+
+      &__divider {
+        padding: 0px;
+      }
+
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.about-section-3 {
+  background: #0061fe;
+  color: #fff;
+  padding: 150px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 56px;
+
+  &__text {
+    max-width: 850px;
+    margin: 0px auto;
+  }
+
+  @media (min-width: 320px) and (max-width: 720px) {
+    font-size: 36px;
+  }
+}
+
+.about-section-4 {
+  padding: 150px 0px;
+  font-family: "Poppins", sans-serif;
+  max-width: 1440px;
+  margin: 0px auto;
+  width: 90%;
+
+  &__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: auto;
+    }
+
+    &__title {
+      font-size: 55px;
+      font-weight: bold;
+      color: #1e255d;
+      max-width: 630px;
+
+      &--light {
+        color: #0061fe;
+      }
+    }
+
+    &__text {
+      font-size: 26px;
+      max-width: 630px;
+      padding-top: 28px;
+      color: #1e255d;
+    }
+
+    &__modules {
+      padding-top: 40%;
+
+      @media (max-width: 1024px) {
+        padding-top: 0px;
+        display: grid;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.about-section-5 {
+  font-family: "Poppins", sans-serif;
+
+  &__container {
+    max-width: 1440px;
+    margin: 0px auto;
+
+    &__pre-title {
+        font-size: 16px;
+        text-align: center;
+        color: #282828;
+      }
+    
+      &__title {
+        font-size: 54px;
+        font-weight: bold;
+        text-align: center;
+        color: #282828;
+    
+        &--blue {
+          color: #0061fe;
+        }
+      }
+    
+      &__text {
+        color: #5f6980;
+        text-align: center;
+        max-width: 750px;
+        font-size: 26px;
+        margin: auto;
+        padding: 20px 0px;
+      }
+  }
+}

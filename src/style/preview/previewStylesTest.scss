@@ -1,0 +1,116 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.container-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1440px;
+    width: 90%;
+    margin: 0px auto;
+    overflow-x: hidden;
+
+    -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+
+    @media(max-width: 768px) {
+        flex-direction: column-reverse;
+        padding: 80px 0px 0px 0px;
+    }
+
+    &__container-truck {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+        @media(max-width: 768px) {
+            width: 90%;
+            height: auto;
+            padding: 80px 0px;
+        }
+
+
+        &__button-left {
+            &__arrow {
+                height: 40px;
+                width: 40px;
+                cursor: pointer;
+                color: #1e245b;
+            }
+        }
+
+        &__truck {
+            max-width: 843px;
+            width: 100%;
+            position: relative;
+            cursor: grab;
+
+/*             @media(max-width: 768px) {
+                height: unset;
+            } */
+        }
+
+        &__button-right {
+            &__arrow {
+                height: 40px;
+                width: 40px;
+                cursor: pointer;
+                color: #1e245b;
+            }
+        }
+    }
+
+    &__uploads {
+        //background-color: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__container-buttons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+
+            &__upload-button{
+                background-color: #1E245B;
+                color: white;
+                margin: 24px;
+                border-radius: 30px;
+                cursor: pointer;
+                // padding: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            &__sides {
+                display: none;
+            }
+
+            &__back {
+                display: none;
+            }
+        }
+
+        &__generate-preview {
+            color: #8d90ac;
+            text-decoration-line: underline;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 16px;
+        }
+
+        &__h1-files-format{
+            color: #0061FE;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}

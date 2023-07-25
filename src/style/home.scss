@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.section-2 {
+  background: #E9ECEF;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+
+  &__container {
+    max-width: 1440px;
+    margin: 0px auto;
+    width: 90%;
+
+    @media(max-width: 1024px) {
+      text-align: center;
+    }
+
+    &__title-1 {
+      font-size: 55px;
+      font-weight: bold;
+      color: #1E255E;
+    }
+
+    &__title-2 {
+      font-size: 30px;
+      color: #4B517D;
+    }
+
+    &__div-arrow-btn {
+      //padding: 10px 0px;
+      color: #0061FE;
+      width: 200px;
+
+      &__arrow-text {
+        display: inline-block;
+        font-size: 18px;
+      }
+
+      &__arrow-container {
+        display: inline-block;
+        padding: 4px 6px;
+        width: 100px;
+      }
+
+      &__arrow {
+        &:hover {
+          color: #0061FE;
+          border-color: #0061FE;
+        }
+
+        .arrow-body {
+          width: 60%;
+          transition: all 0.6s ease;
+        }
+
+        &:hover .arrow-body {
+          width: 100%;
+        }
+      }
+    }
+
+    .arrow-body {
+      margin-top: 1em;
+      margin-right: 2em;
+      border: 1px solid #0061FE;
+      position: relative;
+      background: #fff;
+
+      .arrow-head {
+        border: 1.5px solid #0061FE;
+        border-radius: 2px;
+        width: 8px;
+        position: absolute;
+        right: -5px;
+        top: 2px;
+        transform: rotate(-45deg);
+        display: inline-block;
+
+        &:after {
+          border: 1.5px solid #0061FE;
+          border-radius: 2px;
+          width: 8px;
+          position: absolute;
+          right: -5px;
+          top: 2px;
+          transform: rotate(-45deg);
+          display: inline-block;
+          content: "";
+          border-color: #0061FE;
+          right: -5px;
+          top: -5px;
+          transform: rotate(90deg);
+          display: inline-block;
+        }
+      }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      transform: translateY(0px);
+      color: #1E255E;
+    }
+
+    &__three-element-slider {
+      padding: 40px 0px;
+      width: 100% !important;
+      padding: auto;
+    }
+  }
+}
+
+.slides-container {
+  padding: 0px 0px;
+
+  &__slide {
+    border-radius: 15px;
+    user-select: none;
+    height: 350px;
+    width: 350px;
+
+    @media (min-width: 320px) and (max-width: 720px) {
+      height: 260px;
+    }
+
+    @media (min-width: 720px) and (max-width: 1024px) {
+      height: 180px;
+    }
+  }
+}
+
+.section-3 {
+  padding: 50px 0px;
+  background: #0061FE;
+  font-family: 'Poppins', sans-serif;
+
+  &__container {
+    max-width: 1440px;
+    margin: 0px auto;
+    width: 90%;
+
+    &__title-1 {
+      color: #27E2FF;
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    &__title-2 {
+      margin: 10px 0px;
+      font-size: 55px;
+      text-align: center;
+      color: #fff;
+
+      @media (max-width: 720px) {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+.cards-container {
+  padding: 64px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 32px;
+  justify-items: center;
+
+  @media (max-width: 720px) {
+    grid-template-columns: auto;
+    padding: unset;
+  }
+
+  @media (min-width: 768px) and (max-width:1024px) {
+    grid-template-columns: 30% 30% 30%;
+    max-width: 700px;
+    padding: unset;
+  }
+
+  &__card {
+    color: #fff;
+    text-align: center;
+    max-width: 380px;
+
+    &__icon-container {
+      padding: 15px;
+      border-radius: 50%;
+      background: #fff;
+      width: 100px;
+      height: 100px;
+      margin: 15px auto;
+
+      &__icon {
+        width: 95%;
+        margin: 0px auto;
+        max-width: 250px;
+      }
+    }
+
+    &__title {
+      font-size: 30px;
+      padding: 10px 0px;
+    }
+
+    &__body {
+      width: 80%;
+      margin: 0px auto;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        margin: 0px auto;
+      }
+    }
+  }
+}
+
+.div-arrow-btn {
+  color: #0061FE;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+
+  &__arrow-text {
+    display: inline-block;
+  }
+
+  &__arrow-container {
+    display: inline-block;
+    padding: 4px 6px;
+    width: 100px;
+  }
+
+  &__arrow {
+
+    &:hover {
+      border-color: #0061FE;
+    }
+
+    .arrow-body {
+      width: 60%;
+      transition: all 0.6s ease;
+    }
+
+    &:hover .arrow-body {
+      width: 100%;
+    }
+  }
+}
+
+.arrow-body {
+  margin-top: 1em;
+  margin-right: 2em;
+  border-color: #0061FE;
+  border: 1px solid;
+  position: relative;
+  background: #fff;
+
+  .arrow-head {
+    border-color: #0061FE;
+    border: 1.5px solid;
+    border-radius: 2px;
+    width: 8px;
+    position: absolute;
+    right: -5px;
+    top: 2px;
+    transform: rotate(-45deg);
+    display: inline-block;
+
+    &:after {
+      border: 1.5px solid;
+      border-radius: 2px;
+      width: 8px;
+      position: absolute;
+      right: -5px;
+      top: 2px;
+      transform: rotate(-45deg);
+      display: inline-block;
+      content: "";
+      right: -5px;
+      top: -5px;
+      transform: rotate(90deg);
+      display: inline-block;
+    }
+  }
+}
+
+.section-4 {
+  padding: 50px 0px;
+  font-family: 'Poppins', sans-serif;
+  text-align: right;
+  background: url('../../public/assets/home/bg-deg.png');
+
+  &__container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0px auto;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: auto;
+      text-align: center;
+    }
+
+    &__title {
+      font-size: 50px;
+      color: #1E255E;
+    }
+
+    &__subtitle {
+      font-size: 30px;
+      color: #1E255E;
+    }
+  }
+}
+
+.section-7 {
+  background: #FFF;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+
+  &__title {
+    font-size: 55px;
+    font-weight: bold;
+    color: #1E255E;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  &__subtitle {
+    font-size: 25px;
+    color: #0061FE;
+    padding-bottom: 40px;
+  }
+
+  &__logo-carrousel-container {
+    background: #8CC5F9;
+    padding: 64px 0px;
+    
+    &__container {
+      max-width: 1440px;
+      width: 90%;
+      margin: 0px auto;
+    }
+  }
+}
+
+.arrow-center {
+  justify-content: center;
+}
+
+.arrow-right {
+  justify-content: right;
+}
+
+.arrow-left {
+  justify-content: left;
+}

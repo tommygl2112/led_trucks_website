@@ -1,0 +1,41 @@
+.btn-rounded {
+    border: solid #0061FE 1px;
+    color: #0061FE;
+    border-radius: 32px;
+    padding: 6px 15px;
+    vertical-align: middle;
+    transition: .6s ease-in-out;
+    margin: 20px 0px;
+    background: transparent;
+
+    &:hover {
+        background: #0061FE;
+        color: #fff;
+    }
+
+    &:focus {
+        background: #0061FE;
+        color: #fff;
+    }
+}
+
+.btn-rounded-light {
+    border: solid #FFF 1px;
+    color: #FFF;
+    border-radius: 32px;
+    padding: 6px 15px;
+    vertical-align: middle;
+    transition: .6s ease-in-out;
+    margin: 20px 0px;
+    background: transparent;
+
+    &:hover {
+        background: #0061FE;
+        color: #fff;
+    }
+
+    &:focus {
+        background: #0061FE;
+        color: #fff;
+    }
+}

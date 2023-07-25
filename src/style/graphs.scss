@@ -1,0 +1,38 @@
+
+.line {
+	stroke: #0160FE;
+	stroke-width: 10;
+	animation-duration: 6s;
+	animation-fill-mode: forwards;
+}
+
+.bar-one {
+	stroke-dasharray: 0 20;
+	stroke: #0160FE;
+}
+.bar-one-animated {
+    animation-name: appearOne;
+	/*animation-delay: 2s;*/
+}
+
+@keyframes appearOne {
+	0% { stroke-dasharray: 0 20; }
+	50% { stroke-dasharray: 20 20; }
+	100% { stroke-dasharray: 20 20; }
+}
+
+.names {
+    font-size: 2px; /* Tamaño de la fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    fill: #0160FE; /* Color del texto */
+    //dominant-baseline: middle; /* Alineación vertical */
+}
+
+.values {
+	font-size: 2px; /* Tamaño de la fuente */
+    fill: #0160FE; /* Color del texto */
+}
+
+.graphs-frame {
+	max-width: 90%;
+}

@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+.how-section-1 {
+    font-family: 'Poppins', sans-serif;
+    background: url('../../public/assets/how-it-works/deg-map.png');
+    background-repeat: no-repeat;
+
+    &__container {
+        max-width: 1512px;
+        width: 90%;
+        margin: 0px auto;
+        padding: 190px 0px 0px 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+
+        @media(max-width: 1100px) {
+            grid-template-columns: auto;
+            text-align: center;
+        }
+
+        &__pre-title {
+            font-size: 16px;
+            color: #0061FE;
+        }
+
+        &__title {
+            font-size: 72px;
+            font-weight: bold;
+            color: #1E255D;
+
+            @media(max-width: 1024px) {
+                font-size: 36px;
+            }
+
+            &--blue {
+                color: #0061FE;
+            }
+
+            &__img {
+                display: inline-block;
+                padding: 10px;
+
+                @media(max-width: 1024px) {
+                    display: none;
+                }
+            }
+        }
+
+        &__text {
+            font-size: 26px;
+            padding: 10px 0px;
+            color: #1E255D;
+            max-width: 500px;
+        }
+
+        &__container-image {
+            display: flex;
+            justify-content: right;
+
+            &__map-image {
+                transform: translateY(150px);
+
+                @media(max-width: 1100px) {
+                    transform: translateY(0px);
+                }
+            }
+        }
+    }
+
+    &__container-precision {
+        max-width: 1512px;
+        width: 90%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: end;
+
+        @media(max-width: 1100px) {
+            grid-template-columns: auto;
+        }
+
+        &__container-profile {
+            display: grid;
+            justify-content: right;
+            position: relative;
+
+            &__text-vertical {
+                position: absolute;
+                left: -140px;
+                top: 50%;
+                font-size: 45px;
+                transform: rotate(-90deg);
+                color: #E5EFFF;
+
+                @media(max-width: 1150px) {
+                    display: none;
+                }
+            }
+
+            &__image {
+                width: 80%;
+            }
+        }
+
+        &__container-slogan {
+            display: grid;
+            justify-content: right;
+
+            &__slogan {
+                font-size: 76px;
+                color: #1E255D;
+                text-align: right;
+                max-width: 800px;
+                transform: translateY(-150px);
+                line-height: 76px;
+
+                @media(max-width: 1300px) {
+                    font-size: 50px;
+                    transform: translateY(-50px);
+                }
+
+                @media(max-width: 1100px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &__container-slogan-mobile {
+        display: grid;
+        justify-content: center;
+
+        &__slogan {
+            font-size: 76px;
+            color: #1E255D;
+            text-align: center;
+            max-width: 300px;
+            line-height: 36px;
+            font-size: 36px;
+            padding: 50px 0px;
+
+            @media(min-width: 1100px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.how-section-2 {
+    font-family: 'Poppins', sans-serif;
+
+    &__container {
+        max-width: 1440px;
+        width: 90%;
+        margin: 0px auto;
+        padding: 220px 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+
+        @media (max-width: 1024px) {
+            display: block;
+            width: 100%;
+            padding: 90px 0px;
+        }
+
+        &__list {
+
+            padding: 60px 0px;
+
+            &__element {
+                padding: 20px;
+
+                @media(max-width: 1024px) {
+                    display: grid;
+                    grid-template-columns: auto;
+                    justify-items: center;
+                }
+
+                &__image {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 48px;
+
+                    @media(max-width: 1024px) {
+                        display: block;
+                        margin: 30px;
+                    }
+                }
+
+                &__info {
+                    display: inline-block;
+                    padding: 0px 15px;
+                    text-align: center;
+
+                    @media(min-width: 1024px) {
+                        width: 80%;
+                        text-align: left;
+                    }
+
+                    &__title {
+                        font-size: 22px;
+                        color: #0061FE;
+                        padding-left: 4px;
+                    }
+
+                    &__text {
+                        font-size: 26px;
+                        padding: 10px 0px;
+                    }
+                }
+            }
+        }
+
+        &__truck-background {
+            background: #27E2FF;
+            border-top: solid #0061FE 20px;
+            max-width: 500px;
+            max-height: 300px;
+            position: relative;
+            display: grid;
+            justify-content: right;
+
+            @media (max-width: 1024px) {
+                max-width: 100%;
+                max-height: 500px;
+            }
+
+
+            &__truck-image {
+                transform: translate(30px, 50px);
+                min-width: 600px;
+                margin-right: 0px;
+
+                @media (max-width: 1024px) {
+                    min-width: 400px;
+                    transform: translate(150px, 50px);
+                }
+            }
+        }
+    }
+}
+
+.how-section-3 {
+    font-family: 'Poppins', sans-serif;
+
+    &__container {
+        max-width: 1440px;
+        width: 90%;
+        margin: 0px auto;
+        padding: 90px 0px 0px 0px;
+
+        @media(max-width: 1024px) {
+            padding: 90px 0px 0px 0px;
+        }
+
+        &__title {
+            font-size: 72px;
+            color: #333;
+            font-weight: bold;
+
+            @media(max-width: 1024px) {
+                font-size: 36px;
+                text-align: center;
+            }
+
+            &--blue {
+                color: #0061FE;
+            }
+        }
+
+        &__subtitle {
+            font-size: 26px;
+            color: #62678D;
+            font-weight: bold;
+            max-width: 500px;
+
+            @media(max-width: 1024px) {
+                font-size: 16px;
+                text-align: center;
+                max-width: 225px;
+                margin: 0px auto;
+            }
+        }
+
+        &__cards-container {
+            padding: 110px 0px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 80px;
+            justify-content: center;
+
+
+            @media (max-width: 1240px) {
+                grid-template-columns: auto;
+            }
+        }
+    }
+}
+
+.how-section-4 {
+    font-family: 'Poppins', sans-serif;
+
+    &__container {
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 260px 0px;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        &__title {
+            font-size: 66px;
+            text-align: center;
+            color: #1E255D;
+            max-width: 800px;
+            margin: 0px auto;
+
+            @media(max-width: 1024px) {
+                font-size: 36px;
+            }
+        }
+
+        &__vertical-text {
+            position: absolute;
+            right: -100px;
+            transform: rotate(-90deg);
+            font-size: 35px;
+            color: #E5EFFF;
+            font-weight: bold;
+
+            @media(max-width: 1024px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.how-section-5 {
+    font-family: 'Poppins', sans-serif;
+    background: url('../../public/assets/how-it-works/truck-blue-angle.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 1100px;
+
+    @media(max-width: 1100px) {
+        transform: translateX(-300px);
+    }
+
+    &__container {
+        display: flex;
+        grid-template-columns: auto auto;
+        align-items: center;
+        padding: 100px 0px;
+
+        @media(max-width: 1024px) {
+            display: block;
+        }
+
+        &__truck-container {
+            transform: translate(-150px, 0px);
+            width: 50%;
+
+            @media(max-width: 1100px) {
+                transform: translateX(0px);
+            }
+
+            &__truck {
+                width: 100%;
+            }
+        }
+
+        &__graphs {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__investment {
+                font-size: 24px;
+                font-weight: bold;
+                color: #1E255D;
+            }
+
+            @media(max-width: 1024px) {
+                display: none;
+            }
+        }
+    }
+}

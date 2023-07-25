@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.slider-container {
+    padding: 80px 0px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../../public/assets/home/bg.jpg');
+
+    @media (max-width: 1240px) {
+        text-align: center;
+        background-image: none;
+    }
+
+    &__container {
+        max-width: 1440px;
+        margin: 0px auto;
+
+        &__overlayed-content {
+            position: absolute;
+            margin: 120px 5%;
+            z-index: 3;
+            width: 450px;
+    
+            @media (max-width: 1240px) {
+                text-align: center;
+            }
+    
+            &__btn {
+                border: solid #0061FE 1px;
+                color: #0061FE;
+                border-radius: 15px;
+                padding: 6px 15px;
+                vertical-align: middle;
+                transition: .6s ease-in-out;
+                margin: 20px 0px;
+                font-size: 22px;
+    
+                &:hover {
+                    background: #0061FE;
+                    color: #fff;
+                }
+            }
+    
+            &__watch-div {
+                display: inline-block;
+                vertical-align: middle;
+                padding: 0px 20px;
+                color: #0061FE;
+                font-size: 20px;
+    
+                @media (max-width: 1240px) {
+                    display: none;
+                }
+    
+                &__btn-video {
+                    padding: 12px;
+                    margin-right: 8px;
+                    vertical-align: middle;
+                    color: #0061FE;
+                    border: solid #0061FE 1px;
+                    border-radius: 50%;
+                    transition: .6s ease-in-out;
+    
+                    &:hover {
+                        background: #0061FE;
+                        color: #fff;
+                    }
+                }
+            }
+    
+            @media (max-width: 1240px) {
+                position: static;
+                margin: 50px auto;
+                background-color: transparent;
+                width: 90%;
+            }
+    
+            &__title1 {
+                font-size: 50px;
+                font-weight: bold;
+                color: #1E255E;
+    
+                med
+    
+                &--blue {
+                    color: #0061FE;
+                }
+            }
+    
+            &__content {
+                color: #1E255E;
+                padding: 15px 0px;
+                font-size: 20px;
+            }
+        }
+    
+        &__slider-content {
+            transform: translate(0px, 150px);
+            position: relative;
+    
+            @media (max-width: 1240px) {
+                position: static;
+                margin: auto;
+                background-color: transparent;
+                width: 90%;
+                transform: translateY(0px);
+            }
+    
+            &__truck-slide {
+                user-select: none;
+                margin: auto 5% auto auto;
+    
+                @media (max-width: 1360px) {
+                    width: 60%;
+                }
+    
+                @media (max-width: 1240px) {
+                    position: static;
+                    margin: auto;
+                    background-color: transparent;
+                    max-width: 80%;
+                }
+            }
+        }
+    }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: black !important;
+    transform: translateY(-150px);
+
+    @media (max-width: 1240px) {
+        transform: translateY(0px);
+    }
+}

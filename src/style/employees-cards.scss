@@ -1,0 +1,61 @@
+.employees-cards {
+    margin: 96px 64px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 80px;
+    justify-content: center;
+
+    @media(max-width: 1024px) {
+        grid-template-columns: auto;
+    }
+
+    &__card {
+        max-width: 310px;
+        color: #fff;
+        text-align: center;
+
+        &__image {
+            width: 100%;
+            border-top-left-radius: 32px;
+            border-top-right-radius: 32px;
+        }
+        &__info {
+            background: #0061FE;
+            padding: 16px 0px;
+            border-bottom-left-radius: 32px;
+            border-bottom-right-radius: 32px;
+
+            &__name {
+                font-size: 18px;
+            }
+
+            &__charge {
+                padding: 20px 0px;
+            }
+
+            &__description {
+                padding: 0px 32px;
+            }
+
+            &__icon-container {
+                background: #fff;
+                width: 40px;
+                height: 40px;
+                padding: 8px;
+                margin: 15px 5px;
+                color: #2075FE;
+                text-align: center;
+                border-radius: 50%;
+                font-size: 23px;
+                display: inline-block;
+                border: solid #FFF 1px;
+                transition: .6s ease-in-out;
+    
+                &:hover {
+                    background: #2075FE;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}

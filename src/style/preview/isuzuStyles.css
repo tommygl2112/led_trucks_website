@@ -1,0 +1,477 @@
+.image1-side-isuzu {
+  transform: perspective(500px) rotateZ(9deg) rotateY(30deg) rotateX(0deg)
+    skewY(-4deg) skewX(13deg) translateZ(-25px);
+  position: absolute;
+  top: 26%;
+  left: 58%;
+  height: 27%;
+  width: 27%;
+  opacity: 100%;
+  border-radius: 0.2em;
+  object-fit: fill;
+}
+
+.image1-back-isuzu {
+  display: none;
+}
+
+.image2-side-isuzu {
+  transform: perspective(500px) rotateY(20deg) rotateX(-3deg) skewY(2.4deg)
+    skewX(2deg) translateZ(-25px);
+  position: absolute;
+  top: 25%;
+  left: 51%;
+  height: 28%;
+  width: 40%;
+  opacity: 100%;
+  border-radius: 0.2em;
+  object-fit: fill;
+}
+
+.image2-back-isuzu {
+  display: none;
+}
+
+.image3-side-isuzu {
+  transform: perspective(500px) rotateY(10deg) rotateX(0deg) rotateZ(1.5deg)
+    skewx(1.5deg) skewY(0deg) translateZ(-25px);
+  position: absolute;
+  top: 22%;
+  left: 41%;
+  height: 31%;
+  width: 48%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image3-back-isuzu {
+  display: none;
+}
+
+.image4-side-isuzu {
+  transform: perspective(500px) rotateY(0deg) rotateX(0deg) skewY(0deg)
+    translateZ(-25px);
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  height: 33%;
+  width: 49%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image4-back-isuzu {
+  display: none;
+}
+
+.image5-side-isuzu {
+  transform: perspective(500px) rotateY(-20deg) rotateX(0deg) rotateZ(-2deg)
+    skewX(-2deg) skewY(-2deg) translateZ(-25px);
+  position: absolute;
+  top: 23%;
+  left: 24%;
+  height: 30%;
+  width: 45%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image5-back-isuzu {
+  transform: perspective(500px) rotateY(60deg) rotateX(7deg) rotateZ(8deg)
+    skewX(-1.5deg) skewY(2deg) translateZ(-25px);
+  position: absolute;
+  top: 15.5%;
+  left: 86%;
+  height: 40.5%;
+  width: 15.5%;
+  opacity: 100%;
+  border-radius: 0.3em;
+  @media only screen and (min-width: 320px) and (max-width: 424px) {
+    left: 94%;
+    top:13%;
+  }
+
+  @media only screen and (min-width: 425px) and (max-width: 768px) {
+    left: 91%;
+    top:15%;
+
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    left: 87%;
+
+  }
+}
+
+.image6-side-isuzu {
+  transform: perspective(500px) rotateY(-30deg) rotateX(0deg) rotateZ(-6.5deg)
+    skewX(-6deg) skewY(0.2deg) translateZ(-25px);
+  position: absolute;
+  top: 25%;
+  left: 20.5%;
+  height: 30%;
+  width: 31%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image6-back-isuzu {
+  transform: perspective(500px) rotateY(25deg) rotateX(6deg) rotateZ(4deg)
+    skewX(1deg) skewY(2deg) translateZ(-25px);
+  position: absolute;
+  top: 14.5%;
+  left: 65%;
+  height: 44%;
+  width: 22%;
+  opacity: 100%;
+  border-radius: 0.3em;
+  @media only screen and (min-width: 320px) and (max-width: 424px) {
+    top: 12%;
+    left: 68%;
+  }
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
+    top: 12%;
+    left: 66%;
+  }
+}
+
+.image7-side-isuzu {
+  transform: perspective(500px) rotateY(-60deg) rotateX(4deg) rotateZ(-10deg)
+    skewY(0deg) translateZ(-20px);
+  position: absolute;
+  top: 27%;
+  left: 23%;
+  height: 28%;
+  width: 19%;
+  opacity: 100%;
+  border-radius: 0.3em;
+  @media only screen and (min-width: 320px) and (max-width: 424px) {
+    top: 22%;
+    left: 15%;
+    width: 23%;
+    height: 38%;
+  }
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
+    top: 22%;
+    left: 18%;
+    width: 23%;
+    height: 38%;
+  }
+}
+
+.image7-back-isuzu {
+  transform: perspective(500px) rotateY(7deg) rotateX(2deg) rotateZ(2deg)
+    skewX(2.5deg) skewY(1deg) translateZ(-25px);
+  position: absolute;
+  top: 14%;
+  left: 45%;
+  height: 45.5%;
+  width: 29.8%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image8-side-isuzu {
+  display: none;
+}
+
+/* todo */
+.image8-back-isuzu {
+  transform: perspective(500px) rotateY(0deg) rotateX(0deg) skewY(0deg)
+    translateZ(-25px);
+  position: absolute;
+  top: 12%;
+  left: 33%;
+  height: 47.5%;
+  width: 34%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image9-side-isuzu {
+  transform: perspective(500px) rotateY(73deg) rotateX(0deg) rotateZ(6deg)
+    skewX(1deg) skewY(3deg) translateZ(-20px);
+  position: absolute;
+  top: 29%;
+  left: 53%;
+  height: 26%;
+  width: 31%;
+  opacity: 100%;
+  border-radius: 0.3em;
+
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
+    left: 59%;
+  }
+  @media only screen and (min-width: 375px) and (max-width: 425px) {
+    left: 58%;
+  }
+}
+
+/* todo */
+.image9-back-isuzu {
+  transform: perspective(500px) rotateY(-7deg) rotateX(0deg) rotateZ(-2deg)
+    skewX(-3deg) skewY(-1.5deg) translateZ(-25px);
+  position: absolute;
+  top: 14.3%;
+  left: 24.7%;
+  height: 45.5%;
+  width: 30.5%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image10-side-isuzu {
+  transform: perspective(500px) rotateY(30deg) rotateX(6deg) rotateZ(5.5deg)
+    skewY(0deg) skewX(1deg) translateZ(-20px);
+  position: absolute;
+  top: 24%;
+  left: 48%;
+  height: 31%;
+  width: 32%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+/* todo */
+.image10-back-isuzu {
+  transform: perspective(500px) rotateY(-20deg) rotateX(4deg) rotateZ(-4deg)
+    skewX(-3deg) skewY(0deg) translateZ(-25px);
+  position: absolute;
+  top: 15%;
+  left: 13.7%;
+  height: 43%;
+  width: 21%;
+  opacity: 100%;
+  border-radius: 0.3em;
+
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
+    left: 11%;
+  }
+
+  @media only screen and (max-width: 425px) {
+    left: 12%;
+  }
+}
+
+.image11-side-isuzu {
+  transform: perspective(500px) rotateY(16deg) rotateX(0deg) rotateZ(0.5deg)
+    skewY(2.5deg) skewX(-2.5deg) translateZ(-20px);
+  position: absolute;
+  top: 22.5%;
+  left: 34%;
+  height: 32%;
+  width: 44%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image11-back-isuzu {
+  transform: perspective(500px) rotateY(-62deg) rotateX(6deg) rotateZ(-8deg)
+    skewX(1deg) skewY(-2.5deg) translateZ(-25px);
+  position: absolute;
+  top: 16%;
+  left: 1.5%;
+  height: 40%;
+  width: 16.6%;
+  opacity: 100%;
+  border-radius: 0.3em;
+  @media only screen and (min-width: 320px) and (max-width: 374px) {
+    top: 13%;
+    left: -7.5%;
+    height: 41%;
+  }
+  @media only screen and (min-width: 375px) and (max-width: 424px) {
+    left: -4.5%;
+  }
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
+    left: -3%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    left: 0%;
+  }
+}
+
+.image12-side-isuzu {
+  transform: perspective(500px) rotateY(0deg) rotateX(0deg) skewY(0deg)
+    skewX(0deg) translateZ(-20px);
+  position: absolute;
+  top: 21%;
+  left: 16%;
+  height: 32%;
+  width: 50%;
+  opacity: 100%;
+  border-radius: 10px;
+}
+
+.image12-back-isuzu {
+  display: none;
+}
+
+.image13-side-isuzu {
+  transform: perspective(500px) rotateY(-13deg) rotateX(0deg) rotate(-1.5deg)
+    skewY(0deg) skewX(-3deg) translateZ(-20px);
+  position: absolute;
+  top: 22%;
+  left: 10.5%;
+  height: 30%;
+  width: 47%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image13-back-isuzu {
+  display: none;
+}
+
+.image14-side-isuzu {
+  transform: perspective(500px) rotateY(-15deg) rotateX(1deg) rotateZ(-2.5deg)
+    skewY(0deg) skewX(-2deg) translateZ(-20px);
+  position: absolute;
+  top: 23.5%;
+  left: 12%;
+  height: 28.5%;
+  width: 38%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image14-back-isuzu {
+  display: none;
+}
+
+.image15-side-isuzu {
+  transform: perspective(500px) rotateY(-27deg) rotateX(0deg) rotateZ(-3.5deg)
+    skewY(0deg) skewX(-4deg) translateZ(-20px);
+  position: absolute;
+  top: 26%;
+  left: 12.5%;
+  height: 26%;
+  width: 29%;
+  opacity: 100%;
+  border-radius: 0.3em;
+}
+
+.image15-back-isuzu {
+  display: none;
+}
+
+.image16-side-isuzu {
+  transform: perspective(500px) rotateY(-55deg) rotateX(0deg) rotateZ(-3deg)
+    skewY(-3deg) skewX(-4deg) translateZ(-20px);
+  position: absolute;
+  top: 26.5%;
+  left: 15%;
+  height: 26%;
+  width: 24%;
+  opacity: 100%;
+  border-radius: 0.3em;
+
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
+    left: 8%;
+    width: 32%;
+  }
+  @media only screen and (min-width: 425px) and (max-width: 768px) {
+    left: 11%;
+    width: 32%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    left: 13%;
+    width: 32%;
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    left: 14%;
+    width: 32%;
+  }
+}
+
+.image16-back-isuzu {
+  display: none;
+}
+
+.image17-side-isuzu {
+  transform: perspective(500px) rotateY(-83deg) rotateX(2deg) rotateZ(-5deg)
+    skewY(-2deg) skewX(0deg) translateZ(-20px);
+  position: absolute;
+  top: 24%;
+  left: 19.5%;
+  height: 28%;
+  width: 21%;
+  opacity: 100%;
+  border-radius: 0.3em;
+
+  @media only screen and (min-width: 320px) and (max-width: 374px) {
+    left: 12%;
+  }
+  @media only screen and (min-width: 375px) and (max-width: 424px) {
+    left: 13%;
+  }
+  @media only screen and (min-width: 425px) and (max-width: 720px) {
+    left: 15%;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    left: 21%;
+  }
+}
+
+.image17-back-isuzu {
+  display: none;
+}
+
+.image18-side-isuzu {
+  transform: perspective(500px) rotateY(83deg) rotateX(1deg) rotateZ(5deg)
+    skewY(1deg) skewX(0deg) translateZ(-20px);
+  position: absolute;
+  top: 24.5%;
+  left: 59.3%;
+  height: 28%;
+  width: 21%;
+  opacity: 100%;
+  border-radius: 0.3em;
+
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
+    left: 67%;
+  }
+
+  @media only screen and (min-width: 425px) and (max-width: 768px) {
+    left: 66%;
+  }
+  @media only screen and (min-width: 375px) and (max-width: 424px) {
+    left: 65.5%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    left: 60%;
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    left: 59%;
+  }
+}
+
+.image18-back-isuzu {
+  display: none;
+}
+
+.image19-side-isuzu {
+  transform: perspective(500px) rotateY(35deg) rotateX(0deg) rotateZ(-4deg)
+    skewX(-4deg) skewY(10deg) translateZ(-25px);
+  position: absolute;
+  top: 26%;
+  left: 63%;
+  height: 28%;
+  width: 17%;
+  opacity: 100%;
+  border-radius: 0.2em;
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
+    left: 69%;
+  }
+  @media only screen and (min-width: 375px) and (max-width: 768px) {
+    left: 67%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    left: 64%;
+  }
+}
+
+.image19-back-isuzu {
+  display: none;
+}
