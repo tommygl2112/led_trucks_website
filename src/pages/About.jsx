@@ -81,11 +81,10 @@ function About() {
 
           <div className="about-section-2__container__info">
             <p className="about-section-2__container__info__text">
-            We aim to achieve maximum exposure for your
-            message and brand awareness to your potential customers by taking
-            your brand directly to the streets. Our team helps create
-            transcendent ad campaigns based on YOUR needs and YOUR target
-            audience.
+              We aim to achieve maximum exposure for your message and brand
+              awareness to your potential customers by taking your brand
+              directly to the streets. Our team helps create transcendent ad
+              campaigns based on YOUR needs and YOUR target audience.
             </p>
 
             {/* <RoundedButton
@@ -100,7 +99,7 @@ function About() {
             </div>
 
             <p className="about-section-2__container__info__text">
-              Have any questions? <br /> Contact us! <b> +1 (281) 402-9247</b>
+              Have any questions? <br /> Contact us! <b> +9 (999) 999-9999</b>
             </p>
           </div>
         </div>
@@ -125,7 +124,9 @@ function About() {
             </h1>
 
             <p className="about-section-4__container__text">
-            We're here to answer any questions you may have, provide you with information about our services, and help you make the most of your experience with us.
+              We're here to answer any questions you may have, provide you with
+              information about our services, and help you make the most of your
+              experience with us.
             </p>
 
             <RoundedButton

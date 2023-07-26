@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 function Contact() {
   return (
     <>
-    <div>From Contact **</div>
+      <div>From Contact **</div>
       <div className="contact-section-1">
         <div className="contact-section-1__container">
           <div className="contact-section-1__container__text">
@@ -15,7 +15,9 @@ function Contact() {
             </h1>
 
             <p className="contact-section-1__container__text__paraph">
-            If you're interested in learning more about our LED advertising services or have any questions, we'd love to hear from you. You can reach us by phone, email, or by filling out the contact form.
+              If you're interested in learning more about our LED advertising
+              services or have any questions, we'd love to hear from you. You
+              can reach us by phone, email, or by filling out the contact form.
             </p>
           </div>
           <div className="contact-section-1__container__form-container">
@@ -91,7 +93,7 @@ function Contact() {
               </div>
 
               <div className="contact-section-2__container__locations__item__address">
-                5346 Stillwater Dr, New Orleans, LA 70128, EE. UU.
+                XXXX Stillwater Dr, New Orleans, LA XXXX, EE. UU.
               </div>
 
               <a
@@ -108,7 +110,7 @@ function Contact() {
               </div>
 
               <div className="contact-section-2__container__locations__item__address">
-                1868 SW 17th Terrace, Miami, FL 33145, EE. UU.
+                XXXX SW XXth Terrace, Miami, FL XXXX, EE. UU.
               </div>
 
               <a
@@ -125,7 +127,7 @@ function Contact() {
               </div>
 
               <div className="contact-section-2__container__locations__item__address">
-                1176 Loring St, San Diego, CA 92109, EE. UU.
+                XXXX Loring St, San Diego, CA XXXXX, EE. UU.
               </div>
 
               <a
@@ -142,7 +144,7 @@ function Contact() {
               </div>
 
               <div className="contact-section-2__container__locations__item__address">
-                Franklin Lofts, 202 Fannin St, Houston, TX 77002, EE. UU.
+                Franklin Lofts, XXX Fannin St, Houston, TX XXXXX, EE. UU.
               </div>
 
               <a
@@ -159,7 +161,7 @@ function Contact() {
               </div>
 
               <div className="contact-section-2__container__locations__item__address">
-                1627 Poe Ave, Orlando, FL 32806, EE. UU.
+                XXXX Poe Ave, Orlando, FL XXXXX, EE. UU.
               </div>
 
               <a
@@ -172,7 +174,7 @@ function Contact() {
 
             <div className="contact-section-2__container__locations__item">
               <div className="contact-section-2__container__locations__item__title">
-              (702) 970-4487
+                (999) 999-9999
               </div>
 
               <div className="contact-section-2__container__locations__item__alt-text">
@@ -215,9 +217,7 @@ function Contact() {
         </div>
       </div>
     </>
-    
   );
-
 }
 
 export default Contact;
