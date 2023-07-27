@@ -1,4 +1,4 @@
-![Logo de mi proyecto](https://github.com/tommygl2112/led_trucks_website/blob/main/screenshot.png)
+![Screenshot](https://github.com/tommygl2112/led_trucks_website/blob/main/screenshot.png)
 
 Open [https://led-trucks-website.vercel.app/](https://led-trucks-website.vercel.app/) to live demo.
 
